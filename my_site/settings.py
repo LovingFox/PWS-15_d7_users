@@ -41,8 +41,7 @@ else 'ox36@8112eggess1pv1^u)m*cd0!kqv!jei7+w1*i%bd!dxeb0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-#ALLOWED_HOSTS = ['mighty-springs-00049.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '0.0.0.0', 'thawing-island-83857.herokuapp.com']
 
 
 # Application definition
