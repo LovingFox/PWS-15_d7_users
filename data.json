@@ -1,6 +1,7 @@
 [
 {
     "model": "auth.user",
+    "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$150000$DbUiZnjmhKwG$Ge1Q7tfbff9GoRfsFohUQhf640mcwlhZsye7+9BXf+s=",
         "last_login": "2020-07-29T11:47:26.000Z",
@@ -18,6 +19,7 @@
 },
 {
     "model": "auth.user",
+    "pk": 12,
     "fields": {
         "password": "pbkdf2_sha256$150000$vVWZcG4UWPPv$ZjfO4LB3lLkR8nbcpVgd4JBY5KQnfQT5VXITjt3Plxc=",
         "last_login": "2020-07-29T11:55:15.314Z",
@@ -35,6 +37,7 @@
 },
 {
     "model": "auth.user",
+    "pk": 13,
     "fields": {
         "password": "!TMlCMmeq29PFWe20romRmt4V5mlMO3mioWEpV0vF",
         "last_login": "2020-07-29T11:54:05.559Z",
@@ -116,6 +119,7 @@
 },
 {
     "model": "sites.site",
+    "pk": 1,
     "fields": {
         "domain": "example.com",
         "name": "example.com"
