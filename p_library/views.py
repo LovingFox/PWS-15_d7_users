@@ -72,7 +72,7 @@ class ProfileUpdate(LoginRequiredMixin, UpdateView):
     # когда данные проверены, то так же добавляем информацию по возрасту и полу в extra_data
     def form_valid(self, form):
         super(ProfileUpdate, self).form_valid(form)
-        social = SocialAccount.objects.get(provider='github', user=self.request.user)
+        social = SocialAccount.objects.filter(provider='github', user=self.request.user).first()
         if social:
             social.extra_data['age'] = form.instance.age
             social.extra_data['gender'] = form.instance.gender
