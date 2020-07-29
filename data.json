@@ -1,10 +1,9 @@
 [
 {
     "model": "auth.user",
-    "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$150000$DbUiZnjmhKwG$Ge1Q7tfbff9GoRfsFohUQhf640mcwlhZsye7+9BXf+s=",
-        "last_login": "2020-07-29T11:47:26.000Z",
+        "last_login": "2020-07-29T13:19:12.562Z",
         "is_superuser": true,
         "username": "admin",
         "first_name": "",
@@ -18,39 +17,11 @@
     }
 },
 {
-    "model": "auth.user",
-    "pk": 12,
+    "model": "sessions.session",
+    "pk": "4axju8562fqps2ci46l7wm7ibyanip6x",
     "fields": {
-        "password": "pbkdf2_sha256$150000$vVWZcG4UWPPv$ZjfO4LB3lLkR8nbcpVgd4JBY5KQnfQT5VXITjt3Plxc=",
-        "last_login": "2020-07-29T11:55:15.314Z",
-        "is_superuser": false,
-        "username": "user",
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2020-07-29T08:04:35.651Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "auth.user",
-    "pk": 13,
-    "fields": {
-        "password": "!TMlCMmeq29PFWe20romRmt4V5mlMO3mioWEpV0vF",
-        "last_login": "2020-07-29T11:54:05.559Z",
-        "is_superuser": false,
-        "username": "LovingFox",
-        "first_name": "Ivan",
-        "last_name": "Revyakin",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2020-07-29T08:17:16.669Z",
-        "groups": [],
-        "user_permissions": []
+        "session_data": "NWVhNGU2Mjg2ZWI3YmIzOGIyOGViODA1Y2M2NDI3YjI5ZmUxZGQ2ODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmMzI3MTFiYWY0N2YzYmFiNzZhMmU5YmRkN2EyMzEwNTQ1MzYwNzVjIiwiX3Nlc3Npb25fZXhwaXJ5IjowfQ==",
+        "expire_date": "2020-08-12T13:19:12.647Z"
     }
 },
 {
@@ -119,7 +90,6 @@
 },
 {
     "model": "sites.site",
-    "pk": 1,
     "fields": {
         "domain": "example.com",
         "name": "example.com"
@@ -151,31 +121,6 @@
                 "example.com"
             ]
         ]
-    }
-},
-{
-    "model": "socialaccount.socialaccount",
-    "pk": 4,
-    "fields": {
-        "user": [
-            "LovingFox"
-        ],
-        "provider": "github",
-        "uid": "5946030",
-        "last_login": "2020-07-29T11:54:04.838Z",
-        "date_joined": "2020-07-29T08:17:17.015Z",
-        "extra_data": "{\"login\": \"LovingFox\", \"id\": 5946030, \"node_id\": \"MDQ6VXNlcjU5NDYwMzA=\", \"avatar_url\": \"https://avatars2.githubusercontent.com/u/5946030?v=4\", \"gravatar_id\": \"\", \"url\": \"https://api.github.com/users/LovingFox\", \"html_url\": \"https://github.com/LovingFox\", \"followers_url\": \"https://api.github.com/users/LovingFox/followers\", \"following_url\": \"https://api.github.com/users/LovingFox/following{/other_user}\", \"gists_url\": \"https://api.github.com/users/LovingFox/gists{/gist_id}\", \"starred_url\": \"https://api.github.com/users/LovingFox/starred{/owner}{/repo}\", \"subscriptions_url\": \"https://api.github.com/users/LovingFox/subscriptions\", \"organizations_url\": \"https://api.github.com/users/LovingFox/orgs\", \"repos_url\": \"https://api.github.com/users/LovingFox/repos\", \"events_url\": \"https://api.github.com/users/LovingFox/events{/privacy}\", \"received_events_url\": \"https://api.github.com/users/LovingFox/received_events\", \"type\": \"User\", \"site_admin\": false, \"name\": \"Ivan Revyakin\", \"company\": null, \"blog\": \"\", \"location\": null, \"email\": null, \"hireable\": null, \"bio\": null, \"twitter_username\": null, \"public_repos\": 19, \"public_gists\": 0, \"followers\": 0, \"following\": 0, \"created_at\": \"2013-11-15T07:48:18Z\", \"updated_at\": \"2020-07-29T04:29:40Z\"}"
-    }
-},
-{
-    "model": "socialaccount.socialtoken",
-    "pk": 4,
-    "fields": {
-        "app": 1,
-        "account": 4,
-        "token": "ede47a5cd5680af19700c85ea7e5ff2b9af736ae",
-        "token_secret": "",
-        "expires_at": null
     }
 },
 {
@@ -506,39 +451,6 @@
         "copy_count": 1,
         "price": "1111.00",
         "cover": ""
-    }
-},
-{
-    "model": "p_library.userprofile",
-    "pk": 3,
-    "fields": {
-        "age": 0,
-        "gender": 0,
-        "user": [
-            "user"
-        ]
-    }
-},
-{
-    "model": "p_library.userprofile",
-    "pk": 4,
-    "fields": {
-        "age": 11,
-        "gender": 1,
-        "user": [
-            "LovingFox"
-        ]
-    }
-},
-{
-    "model": "p_library.userprofile",
-    "pk": 5,
-    "fields": {
-        "age": 0,
-        "gender": 0,
-        "user": [
-            "admin"
-        ]
     }
 },
 {
@@ -1311,6 +1223,60 @@
         ],
         "object_id": "16",
         "object_repr": "1213",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2020-07-29T13:56:40.021Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "LovingFox",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2020-07-29T13:56:40.141Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "user",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2020-07-29T13:56:49.215Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "p_library",
+            "userprofile"
+        ],
+        "object_id": "5",
+        "object_repr": "admin",
         "action_flag": 3,
         "change_message": ""
     }
